@@ -61,3 +61,5 @@ FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 ); 
 
 INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email)
+
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
