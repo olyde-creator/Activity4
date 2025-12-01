@@ -136,3 +136,6 @@ VALUES
 
 ALTER TABLE owners
 ADD registereddate DATE;
+
+ALTER TABLE invoices 
+CHANGE paymentdate paymenttime TIME;
