@@ -142,3 +142,7 @@ CHANGE paymentdate paymenttime TIME;
 
 DELETE FROM appointments
 WHERE animalid = 6;
+
+UPDATE doctors
+SET dlastname = 'Reyes-Gonzales'
+WHERE doctorid = 4;
