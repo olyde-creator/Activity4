@@ -61,5 +61,16 @@ FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 ); 
 
 INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email)
+VALUES
+(1, 'Maria', 'Santos', '123 Mango St., Cebu City', '09171234567', 'maria.santos@example.com'),
+(2, 'Juan', 'Dela Cruz', '45 Banilad Ave., Cebu City', '09281234567', 'juan.delacruz@example.com'),
+(3, 'Anna', 'Reyes', '78 Lopez Jaena St., Mandaue City', '09391234567', 'anna.reyes@example.com'),
+(4, 'Mark', 'Torres', '256 Mabolo St., Cebu City', '09451234567', 'mark.torres@example.com'),
+(5, 'Carla', 'Gomez', '12 Lapu-Lapu Village, Lapu-Lapu City', '09561234567', 'carla.gomez@example.com'),
+(6, 'Peter', 'Lim', '92 Hernan Cortes, Mandaue City', '09671234567', 'peter.lim@example.com'),
+(7, 'Jenny', 'Fernandez', '34 Tres de Abril, Cebu City', '09781234567', 'jenny.fernandez@example.com'),
+(8, 'Robert', 'Hernandez', '56 A.S. Fortuna, Mandaue City', '09891234567', 'robert.hernandez@example.com'),
+(9, 'Liza', 'Navarro', '18 Colon St., Cebu City', '09901234567', 'liza.navarro@example.com'),
+(10, 'Daniel', 'Morales', '77 Osmeña Blvd., Cebu City', '09181235555', 'daniel.morales@example.com');
 
 INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
