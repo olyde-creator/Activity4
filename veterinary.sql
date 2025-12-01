@@ -38,3 +38,12 @@ speciality VARCHAR(50),
 phone VARCHAR(15), 
 email VARCHAR(100) 
 ); 
+
+CREATE TABLE invoices (
+    invoiceid INT PRIMARY KEY,
+    appointid INT,
+    totalamount DECIMAL(10,2),
+    paymentdate TIME,
+    FOREIGN KEY (appointid) 
+    REFERENCES appointments (appointid)
+);
