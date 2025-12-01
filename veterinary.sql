@@ -139,3 +139,6 @@ ADD registereddate DATE;
 
 ALTER TABLE invoices 
 CHANGE paymentdate paymenttime TIME;
+
+DELETE FROM appointments
+WHERE animalid = 6;
